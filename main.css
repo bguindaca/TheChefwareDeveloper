@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 85px;
+    width: 100%;
+    background-color: rgb(245, 167, 0);
+    position:fixed;
+    box-shadow: 0px 0px 6px 2px black;
+    z-index: 1;
+    
+}
+
+.navbar a{
+    margin-right: 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-top: 28px;
+    transition: color .3s ease-in-out;
+    
+}
+
+.navbar a:hover{
+    color: white;
+    
+}
+
+
+#logo{
+    float:left;
+    position: absolute;
+    z-index: 2;
+    height: 80px;
+    width: 200px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.material-symbols-rounded {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.header{ 
+    margin-top: 80px;
+    background-image: url(images/homebaner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.header h1{
+    color: black;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-family: koulen, cursive;
+    font-size: 80px;
+    text-shadow: -1.5px -1.5px 0 white, 1.5px -1.5px 0 white, -1.5px 1.5px 0 white, 1.5px 1.5px 0 white;
+}
+.header p{
+    font-family: koulen, cursive;
+    padding-left: 85px;
+    font-size: 24px;
+    text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+}
+
+.toprecipes{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+
+#top1{
+    margin-top: 25px;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 2px black;
+}
+
+#top2{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 2px black;
+    margin-left: 10px;
+    
+}
+
+#top3{
+    margin-top: 25px;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 2px black;
+    margin-left: 10px;
+    
+    
+}
+.header a :hover{
+    box-shadow: 0px 0px 6px 2px rgb(245, 167, 0) !important;
+}
+.spacer{
+    background-color: white;
+    height: 400px;
+    width: 100%;
+}
+
+.newsletter{
+    background-color: rgba(207, 211, 0, 0.719);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(images/newsback.png);
+    background-repeat: repeat;
+}
+
+#register{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:30px;
+    margin-left: 200px;
+    height: 300px;
+    width: 600px;
+}
+.container-form h2{
+    font-size: 35px;
+}
+.container-form p{
+    font-size: 20px;
+}
+
+.container-form{
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.76);
+    border-radius: 20px;
+    
+}
+
+.container-form input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.container-form input[type=checkbox] {
+    margin-top: 16px;
+}
+
+.container-form input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+}
+
+.container-form input[type=submit]:hover {
+    opacity: 0.8;
+    transform: translateY(4px);
+}
+
+.footer {
+    
+    background: #6c6d6d;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.top1-head{
+    margin-top: 80px;
+    background-image: url(images/bacalhaubras.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+.top2-head{
+    margin-top: 80px;
+    background-image: url(images/sangria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+.top3-head{
+    margin-top: 80px;
+    background-image: url(images/bread.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+.top1-head h1{
+    color: black;
+    padding-top: 50px;
+    padding-left: 400px;
+    font-family: koulen, cursive;
+    font-size: 80px;
+    text-shadow: -1.5px -1.5px 0 white, 1.5px -1.5px 0 white, -1.5px 1.5px 0 white, 1.5px 1.5px 0 white;
+}
+
+.top1-head p{
+    font-family: koulen, cursive;
+    padding-left: 600px;
+    font-size: 24px;
+    text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+}
+
+.top2-head h1{
+    color: black;
+    padding-top: 50px;
+    padding-left: 300px;
+    font-family: koulen, cursive;
+    font-size: 80px;
+    text-shadow: -1.5px -1.5px 0 white, 1.5px -1.5px 0 white, -1.5px 1.5px 0 white, 1.5px 1.5px 0 white;
+}
+
+.top2-head p{
+    font-family: koulen, cursive;
+    padding-left: 600px;
+    font-size: 24px;
+    text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+}
+
+.top3-head h1{
+    color: black;
+    padding-top: 50px;
+    padding-left: 550px;
+    font-family: koulen, cursive;
+    font-size: 80px;
+    text-shadow: -1.5px -1.5px 0 white, 1.5px -1.5px 0 white, -1.5px 1.5px 0 white, 1.5px 1.5px 0 white;
+}
+
+.top3-head p{
+    font-family: koulen, cursive;
+    padding-left: 650px;
+    font-size: 24px;
+    text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+}
+
+.recipe-container{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/fish-2.png);
+    background-repeat: repeat;
+}
+
+.recipe-container2{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/wine.png);
+    background-repeat: repeat;
+}
+.recipe{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    height: 820px;
+    width: 900px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 0px 0px 6px 2px black;
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.recipe2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    height: 600px;
+    width: 900px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 0px 0px 6px 2px black;
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.recipe-container h2 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.recipe-container input[type=checkbox] {
+    margin-top: 9px;
+    transform: scale(2);
+}
+
+.recipe-container label {
+    padding-left: 5px;
+}
+
+.recipe-container2 h2 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.recipe-container2 input[type=checkbox] {
+    margin-top: 9px;
+    transform: scale(2);
+}
+
+.recipe-container2 label {
+    padding-left: 5px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/about.png);
+    background-repeat: repeat;
+}
+.card img{
+    width: 350px;
+    height: 450px;
+}
+
+.about-section {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+.containerabout {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 16px 16px;
+    background-color: #04AA6D;
+    width: 500px;
+}
+
+.contact-section {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.card2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/msg.png);
+    background-repeat: repeat;
+    
+
+}
+
+
+.container-contact{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 16px 16px;
+    background-color: #9122f8;
+    width: 500px;
+}
+
+.container-contact input[type=text], input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.container-contact input[type=checkbox] {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 16px;
+}
+
+.container-contact input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cf00cf;
+    color: white;
+    border: none;
+}
+
+.container-contact input[type=submit]:hover {
+    opacity: 0.8;
+    transform: translateY(4px);
+}
+
+.container-contact input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.container-contact textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+}
